@@ -3,6 +3,7 @@
 <br />
 
 ## 👇 Index
+
 - [👇 Index](#-index)
 - [✨ Features](#-features)
 - [🚀 Usage](#-usage)
@@ -22,14 +23,14 @@
 
 ## ✨ Features
 
-- **Easy configuration** file.
-- **Dark/Light** mode, you can toggle it and will be saved in local storage.
-- **Layouts!** to customize your experience following your workflow.
-- **Clock and Date** format can be set to 24 hour (default) or 12 hour.
-- **Greetings** are easy to modify.
-- **Variables** for custom colors and font sizes in the `app.css` code.
-- All **icons** are from [Lucide icons](https://lucide.dev).
-- **Modular** javascript files for an easy read.
+-   **Easy configuration** file.
+-   **Dark/Light** mode, you can toggle it and will be saved in local storage.
+-   **Layouts!** to customize your experience following your workflow.
+-   **Clock and Date** format can be set to 24 hour (default) or 12 hour.
+-   **Greetings** are easy to modify.
+-   **Variables** for custom colors and font sizes in the `app.css` code.
+-   All **icons** are from [Lucide icons](https://lucide.dev).
+-   **Modular** javascript files for an easy read.
 
 ## 🚀 Usage
 
@@ -38,30 +39,32 @@
 1. Fork this repo
 2. Enable the Github Pages service `Settings → GitHub Pages → Source [master branch] → Save`
 3. Set it as Home Page:
-   - Click the menu button. and select Options. Preferences.
-   - Click the Home panel.
-   - Click the menu next to Homepage and new windows and choose to show custom URLs and add your `Github Pages link`
+    - Click the menu button. and select Options. Preferences.
+    - Click the Home panel.
+    - Click the menu next to Homepage and new windows and choose to show custom URLs and add your `Github Pages link`
 
 ### ➕ As New Tab
 
 You can use different Add-ons/Extensions for it
 
-- If you use Firefox: [Custom New Tab Page](https://addons.mozilla.org/en-US/firefox/addon/custom-new-tab-page/?src=search) and make sure you enable "Force links to open in the top frame (experimental)" in the extension's preferences page.
-- If you use Chromium (Brave, Vivaldi, Chrome): [Custom New Tab URL](https://chrome.google.com/webstore/detail/custom-new-tab-url/mmjbdbjnoablegbkcklggeknkfcjkjia)
+-   If you use Firefox: [Custom New Tab Page](https://addons.mozilla.org/en-US/firefox/addon/custom-new-tab-page/?src=search) and make sure you enable "Force links to open in the top frame (experimental)" in the extension's preferences page.
+-   If you use Chromium (Brave, Vivaldi, Chrome): [Custom New Tab URL](https://chrome.google.com/webstore/detail/custom-new-tab-url/mmjbdbjnoablegbkcklggeknkfcjkjia)
 
 ### 🐳 In a Docker Container
 
 You can run Bento in a Docker Container, either with `docker run`, or with the included `docker-compose` file.
 
 #### Docker run
- 1. Clone this repo to pull the `config.js` file: `git clone https://github.com/migueravila/Bento/`
- 2. Run the following `docker` command, providing the path to the `config.js` file, changing port mappings if needed.
- 3. `# docker run -it -d -p 80:80 -v <config.js location>:/usr/share/nginx/html/config.js lewisdoesstuff/bento`
+
+1.  Clone this repo to pull the `config.js` file: `git clone https://github.com/migueravila/Bento/`
+2.  Run the following `docker` command, providing the path to the `config.js` file, changing port mappings if needed.
+3.  `# docker run -it -d -p 80:80 -v <config.js location>:/usr/share/nginx/html/config.js lewisdoesstuff/bento`
 
 #### docker-compose
-  1. Clone this repo with `git clone https://github.com/migueravila/Bento/`
-  2. Edit port mappings, and provide a path to the `config.js` file in `docker-compose.yml`
-  3. `cd` into the cloned repo, then run `# docker-compose -d up` to start. 
+
+1. Clone this repo with `git clone https://github.com/migueravila/Bento/`
+2. Edit port mappings, and provide a path to the `config.js` file in `docker-compose.yml`
+3. `cd` into the cloned repo, then run `# docker-compose -d up` to start.
 
 ## 🎨 Customization
 
@@ -203,16 +206,16 @@ The same happens with the list links, you can change the list icon (also using L
 
 ### ⛈️ Weather: Api Key, Icons and Unit
 
-For setting up the Weather widget you'll need an API Key from: `https://openweathermap.org/`. Once you have your Key you'll need to set your latitude and longitude, you can use: `https://www.latlong.net/` to get them. 
+For setting up the Weather widget you'll need an API Key from: `https://openweathermap.org/`. Once you have your Key you'll need to set your latitude and longitude, you can use: `https://www.latlong.net/` to get them.
 
 Finally, choose an Icon set:
 
 ![](assets/img/icons.png)
 
-- **Nord** Using the Nord Color Scheme and easy-to-eyes colors
-- **OneDark** (_Default one_) Using the One Dark Pro color scheme
-- **Dark** For White theme only users that want a minimalist look
-- **White** For Dark theme only users that want a minimalist look
+-   **Nord** Using the Nord Color Scheme and easy-to-eyes colors
+-   **OneDark** (_Default one_) Using the One Dark Pro color scheme
+-   **Dark** For White theme only users that want a minimalist look
+-   **White** For Dark theme only users that want a minimalist look
 
 Finally just add them to the `config.js` file.
 
@@ -233,21 +236,21 @@ In the `app.css` file you can change the variables for both themes (Dark and Lig
 /* Light theme  */
 
 :root {
-  --accent: #61b0f1; /* Hover color */
-  --bg: #f5f5f5; /* Background color */
-  --sbg: #e4e6e6; /* Cards color */
-  --fg: #3a3a3a; /* Foreground color */
-  --sfg: #3a3a3a; /* Sceondary Foreground color */
+    --accent: #61b0f1; /* Hover color */
+    --bg: #f5f5f5; /* Background color */
+    --sbg: #e4e6e6; /* Cards color */
+    --fg: #3a3a3a; /* Foreground color */
+    --sfg: #3a3a3a; /* Sceondary Foreground color */
 }
 
 /* Dark theme  */
 
 .darktheme {
-  --accent: #61b0f1; /* Hover color */
-  --bg: #19171a; /* Background color */
-  --sbg: #201e21; /* Cards color */
-  --fg: #d8dee9; /* Foreground color */
-  --sfg: #3a3a3a; /* Secondary Foreground color */
+    --accent: #61b0f1; /* Hover color */
+    --bg: #19171a; /* Background color */
+    --sbg: #201e21; /* Cards color */
+    --fg: #d8dee9; /* Foreground color */
+    --sfg: #3a3a3a; /* Secondary Foreground color */
 }
 ```
 
@@ -261,7 +264,7 @@ that you can change in the `config.js` file:
   autoChangeTheme: true,
 
   // Autochange by OS
-  changeThemeByOS: false, 
+  changeThemeByOS: false,
 
   // Autochange by hour options (24hrs format, string must be in: hh:mm)
   changeThemeByHour: true, // If it's true, it will use the values below:
