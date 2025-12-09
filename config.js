@@ -46,25 +46,25 @@ const CONFIG = {
             id: "1",
             name: "Google Calendar",
             icon: "calendar",
-            link: "https://calendar.google.com/calendar/u/1/r",
+            link: "https://calendar.google.com/calendar/u/0/r",
         },
         {
             id: "2",
             name: "Google Drive",
             icon: "hard-drive",
-            link: "https://drive.google.com/drive/u/1/my-drive",
+            link: "https://drive.google.com/drive/u/0/my-drive",
         },
         {
             id: "6",
-            name: "SynapseS",
-            icon: "croissant",
-            link: "https://synapses.telecom-paris.fr/",
+            name: "Keybr",
+            icon: "keyboard",
+            link: "https://www.keybr.com/",
         },
         {
             id: "4",
-            name: "Sistemas USP",
-            icon: "book",
-            link: "https://uspdigital.usp.br/wsusuario/",
+            name: "Translate",
+            icon: "languages",
+            link: "https://translate.google.com",
         },
         {
             id: "5",
@@ -74,9 +74,9 @@ const CONFIG = {
         },
         {
             id: "3",
-            name: "e-Disciplinas",
-            icon: "graduation-cap",
-            link: "https://edisciplinas.usp.br/acessar/",
+            name: "ChatGPT",
+            icon: "bot",
+            link: "https://chatgpt.com/",
         },
     ],
 
@@ -130,14 +130,6 @@ const CONFIG = {
                 {
                     name: "LinkedIn",
                     link: "https://www.linkedin.com",
-                },
-                {
-                    name: "Google Translate",
-                    link: "https://translate.google.com/",
-                },
-                {
-                    name: "Keybr",
-                    link: "https://www.keybr.com/",
                 },
                 {
                     name: "Music Theory",
